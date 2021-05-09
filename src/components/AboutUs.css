@@ -1,0 +1,50 @@
+
+.MoreAboutContainer {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em;
+    background: #1a1109;
+
+  }
+  
+  .AboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 480px) {
+    .AboutContainer {
+    max-width: 100%;
+    flex-direction: column-reverse;
+    }
+ }
+  .AboutText {
+    font-size: 23px;
+    color: #9da993;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 35px;
+  }
+
+ @media screen and (max-width: 480px) {
+     .ZenVibes-Team{
+    width: 370px;
+    height: 290px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+}
+
+.spa-team {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

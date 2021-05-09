@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.about,
+.book-appt {
+  display: flex;
+  height: 55vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background: #1a1109;
+}
+
+.services {
+  background-image: url('/images/spaimage-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e0c180;
+  font-size: 100px;
+  height: 95vh;
+}
+
+
+.about {
+  background-image: url('/images/spa-about.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #e0c180;
+  font-size: 100px;
+  height: 65vh;
+}
+
+.about-description {
+  font-size: 50px;
+}
